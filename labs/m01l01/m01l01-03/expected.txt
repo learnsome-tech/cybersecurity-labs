@@ -1,0 +1,4 @@
+bank checks the order Alice signed:
+Signature Verified Successfully
+bank edits the account number and checks again:
+Signature Verification Failure

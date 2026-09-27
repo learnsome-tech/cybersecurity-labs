@@ -1,0 +1,2 @@
+plain SHA-256: recovered 1987-03-14 after 24545 guesses
+HMAC, key unknown: no match after 33238 guesses

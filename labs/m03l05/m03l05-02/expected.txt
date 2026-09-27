@@ -1,0 +1,4 @@
+public key, DER:     1206 bytes
+ciphertext to Bob:   1088 bytes
+shared secret:       32 bytes
+Alice and Bob hold the same secret

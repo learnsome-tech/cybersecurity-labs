@@ -1,0 +1,9 @@
+R4 Second region
+   SLE 100,000  ALE 50,000 -> 5,000
+   control 30,000 a year, net value 15,000
+R5 Identity governance suite
+   SLE 60,000  ALE 12,000 -> 1,200
+   control 20,000 a year, net value -9,200
+R5 HR feed disables leavers
+   SLE 60,000  ALE 12,000 -> 2,400
+   control 3,000 a year, net value 6,600

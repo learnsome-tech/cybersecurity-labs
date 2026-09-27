@@ -1,0 +1,4 @@
+customer_id,name,email,phone,ni_number
+1001,Alice Hart,alice.hart@example.com,07700900123,QQ123456C
+1002,Tom Reid,tom.reid@example.org,07700900456,QQ654321A
+1003,Mia Lund,mia.lund@example.com,07700900789,QQ112233B

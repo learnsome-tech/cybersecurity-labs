@@ -1,0 +1,8 @@
+time,phase,source,alerted,detail
+2026-09-01T09:40,reconnaissance,web log,no,board and finance pages read
+2026-09-03T08:59,delivery,mail gateway,no,invoice.docm to ap-team
+2026-09-03T09:07,exploitation,endpoint log,no,macro ran in WINWORD.EXE
+2026-09-03T09:08,installation,endpoint log,no,scheduled task created
+2026-09-03T09:10,command and control,proxy log,no,beacon every 60s to cdn.example.net
+2026-09-08T22:15,actions on objectives,file server,no,2.1 GB copied to 203.0.113.80
+2026-09-09T03:30,actions on objectives,EDR,yes,mass file rename on FS01

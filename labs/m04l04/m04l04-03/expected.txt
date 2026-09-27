@@ -1,0 +1,4 @@
+192.0.2.41 LT-0412: ok, j.mensah, Confidential
+192.0.2.57 LT-0301: recorded as disposed but online, recover it
+192.0.2.88 DESKTOP-7Q2K9LM: not in inventory, unmanaged device
+LT-0587: assigned to r.ahmed, not seen

@@ -1,0 +1,7 @@
+amara and ben share a hash: True
+  amara: Summer2026!
+  ben: Summer2026!
+  chen: not in the wordlist
+  amara: scrypt 16bd93c3c924cc9f0cd639541e0e3696...
+  ben: scrypt 0180ddc819d35049444a09ba4a3ecf50...
+memory per guess: 16 MiB

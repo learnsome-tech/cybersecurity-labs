@@ -1,0 +1,3 @@
+R-02 sign-off expired on 2026-06-30
+R-06 signed by it-mgr, who may accept up to 8; residual is 12
+R-07 action overdue since 2026-09-15, owner infra

@@ -1,0 +1,19 @@
+# The format of this file is documented in the dhcpd.leases(5) manual page.
+lease 192.0.2.41 {
+  starts 4 2026/09/24 08:12:01;
+  binding state active;
+  hardware ethernet 3c:22:fb:10:4a:01;
+  client-hostname "LT-0412";
+}
+lease 192.0.2.57 {
+  starts 4 2026/09/24 08:40:33;
+  binding state active;
+  hardware ethernet a4:83:e7:02:11:5d;
+  client-hostname "LT-0301";
+}
+lease 192.0.2.88 {
+  starts 4 2026/09/24 09:05:17;
+  binding state active;
+  hardware ethernet 7e:91:0c:5b:e2:14;
+  client-hostname "DESKTOP-7Q2K9LM";
+}

@@ -1,0 +1,5 @@
+# SEC-STD-SSH-01 v3  owner: platform security  approved: 2026-02-10
+permitrootlogin no
+passwordauthentication no
+maxauthtries 4
+x11forwarding no

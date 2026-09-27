@@ -1,0 +1,4 @@
+203.0.113.66   banned at 02:14:28
+198.51.100.23  not banned
+192.0.2.15     never banned: inside ignoreip
+203.0.113.9    not banned

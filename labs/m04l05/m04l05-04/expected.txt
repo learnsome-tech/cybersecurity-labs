@@ -1,0 +1,4 @@
+partner-chat   block  {'1002': ['phone', 'email']}
+newsletter     allow  no customer data
+support-reply  alert  {'1001': ['email']}
+upload         block  {'1001': ['email', 'phone', 'ni_number']}

@@ -1,0 +1,3 @@
+with the original media key: readable
+after the key is replaced: unreadable
+encrypted blocks on disk: unchanged

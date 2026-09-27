@@ -1,0 +1,5 @@
+EX-101 payroll-legacy  ok
+EX-102 lab-laptop-07   expired on 2026-06-30
+EX-103 bastion01       IT manager cannot accept high risk
+EX-104 portal          nobody approved it
+EX-105 scanner-02      longer than the one year maximum

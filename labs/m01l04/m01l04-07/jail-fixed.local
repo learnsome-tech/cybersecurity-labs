@@ -1,0 +1,10 @@
+[DEFAULT]
+bantime  = 1h
+# ban after maxretry failures inside findtime
+findtime = 60m
+maxretry = 5
+# addresses listed here are never banned
+ignoreip = 127.0.0.1/8
+
+[sshd]
+enabled = true

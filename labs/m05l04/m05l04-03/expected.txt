@@ -1,0 +1,9 @@
+02:14 sev1: customer data exposed or a core service down
+  02:14 page primary on-call
+  02:19 page incident commander
+  02:22 acknowledged by incident commander
+  comms: exec and status page update every 30 min
+02:14 sev3: suspicious activity, nothing confirmed yet
+  02:14 page primary on-call
+  02:44 page secondary on-call
+  nobody acknowledged and the chain has run out

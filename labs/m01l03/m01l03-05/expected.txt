@@ -1,0 +1,5 @@
+example.com           edits: 0
+xn--xample-2of.com    edits: 1  CYRILLIC SMALL LETTER IE
+examp1e.com           edits: 1
+exarnple.com          edits: 2
+example-invoices.com  edits: 9

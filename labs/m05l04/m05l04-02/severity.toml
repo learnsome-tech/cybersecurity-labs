@@ -1,0 +1,18 @@
+# Security incident escalation policy, owned by the CISO
+[sev1]
+means = "customer data exposed or a core service down"
+chain = ["primary on-call", "incident commander", "CISO"]
+escalate_after_min = 5
+comms = "exec and status page update every 30 min"
+
+[sev2]
+means = "confirmed compromise contained to one system"
+chain = ["primary on-call", "secondary on-call", "incident commander"]
+escalate_after_min = 15
+comms = "internal channel update every 2 hours"
+
+[sev3]
+means = "suspicious activity, nothing confirmed yet"
+chain = ["primary on-call", "secondary on-call"]
+escalate_after_min = 30
+comms = "notes on the ticket"

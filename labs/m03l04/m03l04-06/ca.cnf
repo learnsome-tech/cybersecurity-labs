@@ -1,0 +1,6 @@
+[ ca ]
+default_ca = demo_ca
+
+[ demo_ca ]
+database   = index.txt
+default_md = sha256

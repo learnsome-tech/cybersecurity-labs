@@ -1,0 +1,3 @@
+cold  90.4h  misses RTO 6h, slowest: deliver and rack hardware
+warm   8.4h  misses RTO 6h, slowest: copy backups in
+hot    0.5h  meets RTO 6h, slowest: switch DNS and test

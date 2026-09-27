@@ -1,0 +1,3 @@
+last backup 04:00, failure 05:37, gap 1:37:00
+orders taken 113, in the backup 80, newest 03:57
+orders that exist nowhere now: 33

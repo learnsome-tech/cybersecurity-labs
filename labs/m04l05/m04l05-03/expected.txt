@@ -1,0 +1,4 @@
+4000 1234 5678 9011    fails Luhn, not a card
+7712-3400-9981-2265    fails Luhn, not a card
+4111 1111 1111 1111    card number
+5555-5555-5555-4444    card number

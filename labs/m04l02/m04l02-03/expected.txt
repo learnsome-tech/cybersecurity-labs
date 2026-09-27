@@ -1,0 +1,7 @@
+wire: POST /v1/export HTTP/1.1
+wire: Host: api.example.com
+wire: Authorization: Basic c3ZjLXJlcG9ydDpub3QtYS1yZWFsLXBhc3N3b3Jk
+wire: Content-Length: 33
+wire:
+wire: {"customer": "alice@example.com"}
+decoded: svc-report:not-a-real-password

@@ -1,0 +1,3 @@
+backups/ledger-2026-03-12.csv -r--r--r--
+overwrite refused: Permission denied
+left in backups: ['ledger-2026-03-12.csv.locked']

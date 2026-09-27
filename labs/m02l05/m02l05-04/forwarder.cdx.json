@@ -1,0 +1,43 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:3e671687-395b-41f5-a30f-a58921a69b79",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-08-30T12:00:00Z",
+    "component": {
+      "type": "application",
+      "name": "fabrikam-forwarder",
+      "version": "3.4.0"
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "group": "org.apache.logging.log4j",
+      "name": "log4j-core",
+      "version": "2.14.1",
+      "purl": "pkg:maven/org.apache.logging.log4j/log4j-core@2.14.1"
+    },
+    {
+      "type": "library",
+      "group": "com.fasterxml.jackson.core",
+      "name": "jackson-databind",
+      "version": "2.17.2",
+      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.17.2"
+    },
+    {
+      "type": "library",
+      "group": "org.yaml",
+      "name": "snakeyaml",
+      "version": "1.33",
+      "purl": "pkg:maven/org.yaml/snakeyaml@1.33"
+    },
+    {
+      "type": "library",
+      "name": "openssl",
+      "version": "3.0.7",
+      "purl": "pkg:generic/openssl@3.0.7"
+    }
+  ]
+}

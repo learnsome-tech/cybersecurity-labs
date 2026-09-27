@@ -1,0 +1,4 @@
+fabrikam-forwarder 3.4.0: 4 components
+  CVE-2021-44228 org.apache.logging.log4j:log4j-core 2.14.1: affected below 2.15.0
+  CVE-2022-1471 org.yaml:snakeyaml 1.33: affected below 2.0
+  CVE-2022-3602 openssl 3.0.7: not affected

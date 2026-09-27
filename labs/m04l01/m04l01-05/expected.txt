@@ -1,0 +1,4 @@
+brochure.docx external us-east-1 Public allow
+pricing.docx internal eu-west-1 Confidential allow
+pricing.docx internal us-east-1 Confidential block: us-east-1 not allowed for Confidential
+board-minutes.docx external eu-central-1 Restricted block: label forbids external sharing

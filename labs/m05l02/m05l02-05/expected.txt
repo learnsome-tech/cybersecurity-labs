@@ -1,0 +1,4 @@
+Slough         33 km  min RTT   0.3 ms  at most  3,074 commits/s per writer
+Manchester    261 km  min RTT   2.6 ms  at most    382 commits/s per writer
+Frankfurt     638 km  min RTT   6.4 ms  at most    157 commits/s per writer
+Ashburn     5,917 km  min RTT  59.2 ms  at most     17 commits/s per writer

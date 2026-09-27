@@ -1,0 +1,5 @@
+10.20.1.0/24    private=True  inside target=True  addresses=256
+10.20.1.128/25  private=True  inside target=True  addresses=128
+10.20.2.0/24    private=True  inside target=False addresses=256
+10.0.0.0/8      private=True  inside target=False addresses=16777216
+0.0.0.0/0       private=False inside target=False addresses=4294967296

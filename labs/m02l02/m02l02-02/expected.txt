@@ -1,0 +1,5 @@
+R1 15 critical treat  Ransomware via phished VPN credentials
+R4 12 high     treat  Payment API down in its only region
+R5 12 high     treat  Leavers' accounts left active
+R2 10 high     treat  Cloud bucket exposes customer exports
+R3  8 medium   accept Unencrypted laptop stolen

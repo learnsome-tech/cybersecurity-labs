@@ -1,0 +1,2 @@
+secure_delete OFF: rows visible 0, note still in file: True
+secure_delete ON: rows visible 0, note still in file: False

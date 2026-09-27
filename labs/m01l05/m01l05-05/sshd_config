@@ -1,0 +1,9 @@
+# bastion01: remote access hardened per standard RA-02
+Include sshd_config.d/*.conf
+
+Port 22
+PermitRootLogin no
+MaxAuthTries 3
+X11Forwarding no
+PasswordAuthentication no
+KbdInteractiveAuthentication no

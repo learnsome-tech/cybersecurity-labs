@@ -1,0 +1,3 @@
+Bob's public key on the wire: 44 bytes
+shared secret: 32 bytes
+Alice and Bob derived the same secret

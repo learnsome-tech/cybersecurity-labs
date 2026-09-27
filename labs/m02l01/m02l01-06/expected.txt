@@ -1,0 +1,4 @@
+226c31d 2026-03-05 Priya Shah: Lower maxauthtries to 3 (CHG-2291)
+50358c6 2026-02-10 Priya Shah: SSH standard v3 (CAB-118)
+-maxauthtries 4
++maxauthtries 3

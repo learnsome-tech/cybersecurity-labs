@@ -1,0 +1,4 @@
+became aware        Fri 23 Oct 16:30 CEST
+NIS2 early warning  Sat 24 Oct 16:30 CEST  wall-clock sum: 16:30
+NIS2 notification   Mon 26 Oct 15:30 CET  wall-clock sum: 16:30
+GDPR Art. 33 notice Mon 26 Oct 15:30 CET  wall-clock sum: 16:30

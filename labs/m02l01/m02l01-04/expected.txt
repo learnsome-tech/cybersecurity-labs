@@ -1,0 +1,5 @@
+permitrootlogin          standard no  server no  ok
+passwordauthentication   standard no  server yes fails
+maxauthtries             standard 4   server 4   ok
+x11forwarding            standard no  server yes fails
+2 of 4 settings fail SEC-STD-SSH-01

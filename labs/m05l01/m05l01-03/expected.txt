@@ -1,0 +1,8 @@
+identity: RTO 3h, ready after 3h ok
+identity: RPO 4h, backup every 24h could lose 24h of data
+payments: RTO 5h, ready after 5h ok
+payments: RPO 1h, backup every 1h ok
+payroll: RTO 64h, ready after 23h ok
+payroll: RPO 24h, backup every 24h ok
+checkout: RTO 6h, ready after 7h late by 1h
+checkout: RPO 1h, backup every 24h could lose 24h of data

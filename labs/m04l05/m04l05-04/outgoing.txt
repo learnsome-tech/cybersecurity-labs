@@ -1,0 +1,4 @@
+partner-chat: Can you call Tom on 07700900456 or email tom.reid@example.org?
+newsletter: Write to press@example.com for the autumn catalogue.
+support-reply: Thanks, alice.hart@example.com is now on your account.
+upload: 1001,Alice Hart,alice.hart@example.com,07700900123,QQ123456C

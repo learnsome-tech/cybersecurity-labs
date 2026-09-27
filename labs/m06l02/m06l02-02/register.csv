@@ -1,0 +1,8 @@
+id,risk,owner,L,I,rL,rI,treatment,approver,date,status
+R-01,Bastion SSH open to the internet,infra,4,5,3,5,mitigate,,2026-10-15,open
+R-02,Vendor BI host reads customer DB,data,3,4,2,4,accept,data,2026-06-30,signed
+R-03,Ransomware reaches billing backups,infra,3,5,1,5,mitigate,,2026-08-01,done
+R-04,Checkout stores card numbers,cto,3,5,1,1,avoid,,2026-07-01,done
+R-05,Lost laptop leaks customer files,it,3,4,3,4,transfer,cfo,2027-03-31,signed
+R-06,No MFA on legacy HR portal,hr,4,4,3,4,accept,it-mgr,2026-12-31,signed
+R-07,DB open to all of 10.0.0.0/8,infra,3,4,3,4,mitigate,,2026-09-15,open

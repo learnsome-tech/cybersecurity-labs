@@ -1,0 +1,9 @@
+subject=O=Example Bookings Ltd, CN=booking.example.org
+issuer=O=Example Bookings Ltd, CN=Example Bookings Internal CA
+notBefore=Oct 20 00:00:00 2025 GMT
+notAfter=Oct 19 23:59:59 2026 GMT
+X509v3 Subject Alternative Name:
+DNS:booking.example.org
+Public-Key: (1024 bit)
+Signature Algorithm: sha256WithRSAEncryption
+2d2c81214264862abcd5fc195870c69de5031951b5668f76b2e9b381316c8d26  cert.pem

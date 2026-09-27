@@ -1,0 +1,6 @@
+rsa: public key 422 bytes, signature 384 bytes
+  Signature Verified Successfully
+ed: public key 44 bytes, signature 64 bytes
+  Signature Verified Successfully
+after the edit, rsa: Signature Verification Failure
+after the edit, ed:  Signature Verification Failure

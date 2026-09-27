@@ -1,0 +1,4 @@
+line 1: 773022******4408  fails Luhn, not a card
+line 2: 411111******1111  card number
+line 3: 502188******2256  fails Luhn, not a card
+line 4: 555555******4444  card number

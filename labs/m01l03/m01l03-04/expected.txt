@@ -1,0 +1,7 @@
+display name:  Dana Whitfield, Example Ltd Accounts
+from address:  accounts@example.com
+replies go to: accounts.example@mailbox.example.net
+bounces go to: <billing@examp1e-pay.com>
+auth result:   spf=pass smtp.mailfrom=examp1e-pay.com
+auth result:   dkim=none
+auth result:   dmarc=fail (p=none) header.from=example.com

@@ -1,0 +1,8 @@
+f1691a99e1b080e3d15d1358329688ec4109f181037e4c3b3332213134a0473c  changes.csv
+e9d63cd3c923ee4f25daab120eebe0c71b1c590e0dc23265b1e9e733a8dbbd37  sample.txt
+7d4ad1dac3cad55e1fee803d7bfc942fba9ae447e50eab811ff9a42506a699d4  results.csv
+c524117aef6825cff8bbe6ecbe1899bdf864f29b171905d2e0ecfe90c5c7664f  manifest.sha256
+changes.csv: OK
+sample.txt: OK
+results.csv: FAILED
+sha256sum: WARNING: 1 computed checksum did NOT match

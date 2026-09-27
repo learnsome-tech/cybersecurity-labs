@@ -1,0 +1,8 @@
+# /etc/ssh/sshd_config on web-01 (Ubuntu layout)
+Include /etc/ssh/sshd_config.d/*.conf
+
+PermitRootLogin no
+PasswordAuthentication no
+KbdInteractiveAuthentication no
+MaxAuthTries 4
+X11Forwarding yes

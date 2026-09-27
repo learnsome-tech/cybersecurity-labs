@@ -1,0 +1,5 @@
+customers: 1 row(s) matched on email
+orders: 2 row(s) matched on customer_id
+marketing: 1 row(s) matched on email
+support_tickets: 2 row(s) matched on email
+wrote alice-export.json with 6 records

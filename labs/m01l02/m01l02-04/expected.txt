@@ -1,0 +1,4 @@
+192.0.2.7     requests: 2  opportunistic: asked only for software we do not run
+192.0.2.99    requests: 2  opportunistic: asked only for software we do not run
+192.0.2.66    requests: 4  targeted: read up on our staff, then tried to log in
+192.0.2.51    requests: 1  nothing unusual

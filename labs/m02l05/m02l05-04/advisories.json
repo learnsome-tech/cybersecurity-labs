@@ -1,0 +1,23 @@
+[
+  {
+    "id": "CVE-2021-44228",
+    "summary": "Log4Shell: JNDI lookup remote code execution",
+    "package": "org.apache.logging.log4j:log4j-core",
+    "introduced": "2.0",
+    "fixed": "2.15.0"
+  },
+  {
+    "id": "CVE-2022-1471",
+    "summary": "SnakeYAML Constructor deserialisation",
+    "package": "org.yaml:snakeyaml",
+    "introduced": "0",
+    "fixed": "2.0"
+  },
+  {
+    "id": "CVE-2022-3602",
+    "summary": "X.509 email address buffer overflow",
+    "package": "openssl",
+    "introduced": "3.0.0",
+    "fixed": "3.0.7"
+  }
+]

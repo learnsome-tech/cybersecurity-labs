@@ -1,0 +1,16 @@
+Return-Path: <billing@examp1e-pay.com>
+Authentication-Results: mx.example.org;
+ spf=pass smtp.mailfrom=examp1e-pay.com;
+ dkim=none;
+ dmarc=fail (p=none) header.from=example.com
+From: "Dana Whitfield, Example Ltd Accounts" <accounts@example.com>
+Reply-To: accounts.example@mailbox.example.net
+To: ap-team@example.org
+Subject: Updated bank details for invoice INV-20931
+Date: Mon, 21 Sep 2026 08:59:31 +0000
+Content-Type: text/html; charset=utf-8
+
+<p>Hi, our bank has changed. Please settle INV-20931 today
+to avoid a late fee. Updated details are on our portal:</p>
+<p><a href="https://examp1e-pay.com/login">https://portal.example.com</a></p>
+<p>Dana</p>

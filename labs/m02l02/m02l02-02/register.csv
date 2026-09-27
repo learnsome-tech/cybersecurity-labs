@@ -1,0 +1,6 @@
+id,risk,owner,likelihood,impact
+R1,Ransomware via phished VPN credentials,IT operations,3,5
+R2,Cloud bucket exposes customer exports,Platform,2,5
+R3,Unencrypted laptop stolen,Workplace,4,2
+R4,Payment API down in its only region,Payments,3,4
+R5,Leavers' accounts left active,HR systems,4,3

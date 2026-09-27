@@ -1,0 +1,3 @@
+one of everything  99.2047%  down about 4,180 min a year
+two web servers    99.6982%  down about 1,586 min a year
+two of everything  99.9970%  down about 16 min a year

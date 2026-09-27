@@ -1,0 +1,6 @@
+id,control,system,risk,approved_by,expires
+EX-101,MFA for remote access,payroll-legacy,high,CISO,2026-12-31
+EX-102,Full disk encryption,lab-laptop-07,low,IT manager,2026-06-30
+EX-103,Password login on bastion,bastion01,high,IT manager,2027-03-31
+EX-104,TLS 1.0 on supplier portal,portal,medium,,2026-10-31
+EX-105,Legacy SMBv1 share,scanner-02,medium,CISO,2028-01-31

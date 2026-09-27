@@ -1,0 +1,6 @@
+SEG-01 db-tier 5432 10.20.1.0/24 met
+SEG-01 db-tier 5432 203.0.113.40/32 gap: vendor BI
+SEG-01 db-tier 5432 10.0.0.0/8 gap: migration
+SEG-02 db-tier 22 10.0.0.0/8 gap: migration
+SEG-02 bastion 22 10.20.9.0/24 met
+SEG-02 bastion 22 0.0.0.0/0 gap: temp debug

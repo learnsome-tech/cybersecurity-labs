@@ -1,0 +1,6 @@
+Northwind Payroll tier 1  SOC 2 Type II or ISO 27001, SIG Core, pen test; yearly
+Contoso Helpdesk  tier 1  SOC 2 Type II or ISO 27001, SIG Core, pen test; yearly
+Fabrikam Logs     tier 1  SOC 2 Type II or ISO 27001, SIG Core, pen test; yearly
+Wingtip Surveys   tier 2  SIG Lite or CAIQ; every two years
+Litware Print     tier 2  SIG Lite or CAIQ; every two years
+Tailspin Snacks   tier 3  contract terms only; at renewal

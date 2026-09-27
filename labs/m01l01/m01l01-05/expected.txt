@@ -1,0 +1,7 @@
+09:12:41 admin   authn failed password from 198.51.100.23
+09:13:05 alice   authn accepted publickey from 203.0.113.7
+09:14:02 alice   authz allowed as root: /usr/bin/systemctl restart nginx
+09:14:30 bob     authn accepted publickey from 203.0.113.9
+09:15:10 bob     authz refused as root: /usr/bin/cat /etc/shadow
+09:16:44 deploy? authn accepted password from 203.0.113.50
+09:17:20 deploy? authz allowed as root: /usr/bin/rm -rf /srv/app/releases

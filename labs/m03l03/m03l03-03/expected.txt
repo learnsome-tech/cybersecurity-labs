@@ -1,0 +1,3 @@
+genuine request, HMAC check:   True
+forged request, plain check:   True
+forged request, HMAC check:    False

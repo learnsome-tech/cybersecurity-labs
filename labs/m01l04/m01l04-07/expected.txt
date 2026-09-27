@@ -1,0 +1,12 @@
+4c4
+< findtime = 10m
+---
+> findtime = 60m
+7c7
+< ignoreip = 127.0.0.1/8 192.0.2.0/24
+---
+> ignoreip = 127.0.0.1/8
+203.0.113.66   banned at 02:14:28
+198.51.100.23  banned at 03:07:00
+192.0.2.15     banned at 02:20:20
+203.0.113.9    not banned

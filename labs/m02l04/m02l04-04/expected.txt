@@ -1,0 +1,2 @@
+plain SHA-256: recovered 4111111111111111 after 111,112 guesses
+keyed HMAC-SHA-256: 0 matches in 1,000,000 guesses

@@ -1,0 +1,6 @@
+          Serial Number: 1000
+    OCSP Response Status: successful (0x0)
+    Cert Status: revoked
+Response verify OK
+www.pem: revoked
+	Reason: keyCompromise

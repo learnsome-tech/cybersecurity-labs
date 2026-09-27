@@ -1,0 +1,11 @@
+csf,iso27001,cis_v8,requirement
+GV.PO-01,5.1,,Cybersecurity policy established and communicated
+ID.AM-01,5.9,1.1,Hardware inventory maintained
+ID.AM-02,5.9,2.1,Software and services inventory maintained
+PR.AA-01,5.16,5.1,Identities and credentials managed
+PR.PS-01,8.9,4.1,Configuration management practices applied
+PR.DS-11,8.13,11.2,Backups created protected maintained and tested
+PR.AT-01,6.3,14.1,Personnel given awareness and training
+DE.CM-01,8.16,13.1,Networks monitored for adverse events
+RS.MA-01,5.26,17.1,Incident response plan executed
+RC.RP-03,8.13,11.5,Backup integrity verified before restoration

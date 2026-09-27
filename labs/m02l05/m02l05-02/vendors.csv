@@ -1,0 +1,7 @@
+vendor,service,data,access,business_critical
+Northwind Payroll,Payroll processing,employee_pii,none,yes
+Contoso Helpdesk,Customer support desk,customer_pii,admin_sso,yes
+Fabrikam Logs,Hosted log analytics,security_logs,agent_on_servers,yes
+Wingtip Surveys,Customer surveys,customer_pii,none,no
+Litware Print,Managed printers,none,network,no
+Tailspin Snacks,Office snacks,none,none,no

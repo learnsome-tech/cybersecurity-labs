@@ -1,0 +1,4 @@
+on the wire: 7eddccfe851db38d269899155f6ec1b9a62c76621ab2541ab6a98b
+tag:         eb61636d712164ba3f3285fc84ed5f25
+original: pay 0100.00 GBP to 12345678
+tampered: rejected, authentication failed, nothing released

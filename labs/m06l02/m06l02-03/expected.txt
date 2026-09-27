@@ -1,0 +1,8 @@
+id    inh  res  treatment  owner
+R-01   20   15  mitigate   infra  above appetite
+R-05   12   12  transfer   it     above appetite
+R-06   16   12  accept     hr     above appetite
+R-07   12   12  mitigate   infra  above appetite
+R-02   12    8  accept     data
+R-03   15    5  mitigate   infra
+R-04   15    1  avoid      cto

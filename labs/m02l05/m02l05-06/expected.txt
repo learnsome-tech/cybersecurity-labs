@@ -1,0 +1,6 @@
+04 Aug 02:00 maintenance  90 min
+12 Aug 14:05 outage       36 min  counted
+19 Aug 09:10 degraded     22 min
+27 Aug 22:50 outage       22 min  counted
+58 min counted as down, 44.6 allowed
+availability 99.870%, credit due 10% of the fee

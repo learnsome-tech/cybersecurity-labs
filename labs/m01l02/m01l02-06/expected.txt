@@ -1,0 +1,8 @@
+reconnaissance         2026-09-01T09:40 missed
+weaponisation          nothing in our logs
+delivery               2026-09-03T08:59 missed
+exploitation           2026-09-03T09:07 missed
+installation           2026-09-03T09:08 missed
+command and control    2026-09-03T09:10 missed
+actions on objectives  2026-09-08T22:15 alert
+first alert at 2026-09-09T03:30 which is 5 days, 18:31:00 after delivery

@@ -1,0 +1,4 @@
+pass permitrootlogin no from sshd_config
+fail passwordauthentication yes from sshd_config.d/50-cloud-init.conf
+pass x11forwarding no from sshd_config
+pass maxauthtries 3 from sshd_config

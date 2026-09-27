@@ -1,0 +1,25 @@
+Sep 27 02:14:00 bastion sshd[4000]: Failed password for root from 203.0.113.66 port 40100 ssh2
+Sep 27 02:14:07 bastion sshd[4001]: Failed password for invalid user admin from 203.0.113.66 port 40101 ssh2
+Sep 27 02:14:14 bastion sshd[4002]: Failed password for invalid user oracle from 203.0.113.66 port 40102 ssh2
+Sep 27 02:14:21 bastion sshd[4003]: Failed password for invalid user test from 203.0.113.66 port 40103 ssh2
+Sep 27 02:14:28 bastion sshd[4004]: Failed password for invalid user ubuntu from 203.0.113.66 port 40104 ssh2
+Sep 27 02:14:35 bastion sshd[4005]: Failed password for invalid user pi from 203.0.113.66 port 40105 ssh2
+Sep 27 02:14:42 bastion sshd[4006]: Failed password for invalid user git from 203.0.113.66 port 40106 ssh2
+Sep 27 02:15:00 bastion sshd[4016]: Failed password for invalid user admin from 198.51.100.23 port 33000 ssh2
+Sep 27 02:19:00 bastion sshd[4007]: Failed password for root from 192.0.2.15 port 51000 ssh2
+Sep 27 02:19:20 bastion sshd[4008]: Failed password for root from 192.0.2.15 port 51001 ssh2
+Sep 27 02:19:40 bastion sshd[4009]: Failed password for root from 192.0.2.15 port 51002 ssh2
+Sep 27 02:20:00 bastion sshd[4010]: Failed password for root from 192.0.2.15 port 51003 ssh2
+Sep 27 02:20:20 bastion sshd[4011]: Failed password for root from 192.0.2.15 port 51004 ssh2
+Sep 27 02:20:40 bastion sshd[4012]: Failed password for root from 192.0.2.15 port 51005 ssh2
+Sep 27 02:21:00 bastion sshd[4013]: Failed password for root from 192.0.2.15 port 51006 ssh2
+Sep 27 02:21:20 bastion sshd[4014]: Failed password for root from 192.0.2.15 port 51007 ssh2
+Sep 27 02:21:40 bastion sshd[4015]: Failed password for root from 192.0.2.15 port 51008 ssh2
+Sep 27 02:28:00 bastion sshd[4017]: Failed password for invalid user admin from 198.51.100.23 port 33001 ssh2
+Sep 27 02:41:00 bastion sshd[4018]: Failed password for invalid user admin from 198.51.100.23 port 33002 ssh2
+Sep 27 02:54:00 bastion sshd[4019]: Failed password for invalid user admin from 198.51.100.23 port 33003 ssh2
+Sep 27 03:07:00 bastion sshd[4020]: Failed password for invalid user admin from 198.51.100.23 port 33004 ssh2
+Sep 27 03:20:00 bastion sshd[4021]: Failed password for invalid user admin from 198.51.100.23 port 33005 ssh2
+Sep 27 08:31:02 bastion sshd[4022]: Failed password for alice from 203.0.113.9 port 50110 ssh2
+Sep 27 08:31:09 bastion sshd[4023]: Failed password for alice from 203.0.113.9 port 50110 ssh2
+Sep 27 08:31:15 bastion sshd[4099]: Accepted password for alice from 203.0.113.9 port 50110 ssh2

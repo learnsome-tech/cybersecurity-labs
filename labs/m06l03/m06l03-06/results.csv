@@ -1,0 +1,16 @@
+number,result,reason
+CHG-1005,pass,
+CHG-1006,pass,
+CHG-1007,pass,
+CHG-1018,pass,
+CHG-1019,exception,approved by the person who deployed it
+CHG-1021,pass,
+CHG-1023,pass,
+CHG-1029,pass,
+CHG-1030,pass,
+CHG-1031,exception,approved after it was deployed
+CHG-1033,pass,
+CHG-1036,pass,
+CHG-1041,pass,
+CHG-1044,pass,
+CHG-1048,pass,

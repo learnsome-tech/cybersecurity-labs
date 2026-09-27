@@ -1,0 +1,5 @@
+clicked    4 of 10
+submitted  2 of 10
+reported   4 of 10
+first report arrived 0:04:00 after sending
+clicked, then reported it: dev

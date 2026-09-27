@@ -1,0 +1,4 @@
+id,control,asset_value,exposure_factor,aro,aro_with_control,control_cost
+R4,Second region,400000,0.25,0.5,0.05,30000
+R5,Identity governance suite,600000,0.10,0.2,0.02,20000
+R5,HR feed disables leavers,600000,0.10,0.2,0.04,3000
