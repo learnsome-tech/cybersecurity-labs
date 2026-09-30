@@ -1,0 +1,20 @@
+{
+  "lab": "m02l04-03",
+  "lesson": "m02l04",
+  "title": "Finding card numbers in a support export",
+  "mode": "graded",
+  "runner": "python",
+  "command": "python3 pan_scan.py",
+  "main": "pan_scan.py",
+  "files": [
+    "pan_scan.py",
+    "support_export.log"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

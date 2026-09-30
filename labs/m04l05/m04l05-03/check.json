@@ -1,0 +1,20 @@
+{
+  "lab": "m04l05-03",
+  "lesson": "m04l05",
+  "title": "Pattern plus validation: finding card numbers",
+  "mode": "graded",
+  "runner": "python",
+  "command": "python3 cards.py",
+  "main": "cards.py",
+  "files": [
+    "cards.py",
+    "outbound.eml"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

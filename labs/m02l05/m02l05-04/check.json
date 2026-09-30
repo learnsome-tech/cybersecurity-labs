@@ -1,0 +1,21 @@
+{
+  "lab": "m02l05-04",
+  "lesson": "m02l05",
+  "title": "Checking a vendor's SBOM against advisories",
+  "mode": "graded",
+  "runner": "python",
+  "command": "python3 sbom_check.py",
+  "main": "sbom_check.py",
+  "files": [
+    "advisories.json",
+    "forwarder.cdx.json",
+    "sbom_check.py"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

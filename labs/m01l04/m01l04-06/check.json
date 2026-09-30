@@ -1,0 +1,24 @@
+{
+  "lab": "m01l04-06",
+  "lesson": "m01l04",
+  "title": "Applying the jail's rule to the log",
+  "mode": "graded",
+  "runner": "recorded",
+  "command": "python3 jail_check.py jail.local",
+  "main": "jail_check.py",
+  "files": [
+    "auth.log",
+    "command.txt",
+    "failures.py",
+    "jail.local",
+    "jail_check.py"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "bash",
+    "python3"
+  ],
+  "note": null
+}

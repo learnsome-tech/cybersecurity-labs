@@ -1,0 +1,20 @@
+{
+  "lab": "m02l01-03",
+  "lesson": "m02l01",
+  "title": "What the file says versus what sshd enforces",
+  "mode": "read-along",
+  "runner": null,
+  "command": null,
+  "main": "effective.sh",
+  "files": [
+    "command.txt",
+    "effective.sh",
+    "sshd_config",
+    "sshd_config.d/50-cloud-init.conf"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [],
+  "note": "It needs root access or system services (systemd, firewall rules, raw sockets) that the lab sandbox does not allow. Run it on a Linux machine or VM you control."
+}

@@ -1,0 +1,26 @@
+{
+  "lab": "m01l04-07",
+  "lesson": "m01l04",
+  "title": "Closing the gaps, and what it costs",
+  "mode": "graded",
+  "runner": "bash",
+  "command": "bash retest.sh",
+  "main": "retest.sh",
+  "files": [
+    "auth.log",
+    "command.txt",
+    "failures.py",
+    "jail-fixed.local",
+    "jail.local",
+    "jail_check.py",
+    "retest.sh"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "bash",
+    "python3"
+  ],
+  "note": null
+}

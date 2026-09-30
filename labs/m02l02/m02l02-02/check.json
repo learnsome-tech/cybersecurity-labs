@@ -1,0 +1,20 @@
+{
+  "lab": "m02l02-02",
+  "lesson": "m02l02",
+  "title": "Scoring a risk register on a five by five matrix",
+  "mode": "graded",
+  "runner": "python",
+  "command": "python3 qualitative.py",
+  "main": "qualitative.py",
+  "files": [
+    "qualitative.py",
+    "register.csv"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

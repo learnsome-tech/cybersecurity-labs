@@ -1,4 +1,0 @@
-right name:   www.pem: OK
-wrong name:   hostname mismatch
-after expiry: certificate has expired
-self-signed:  self-signed certificate

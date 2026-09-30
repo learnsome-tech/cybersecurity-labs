@@ -1,0 +1,21 @@
+{
+  "lab": "m04l01-05",
+  "lesson": "m04l01",
+  "title": "A sharing gate that reads the label",
+  "mode": "graded",
+  "runner": "python",
+  "command": "python3 gate.py",
+  "main": "gate.py",
+  "files": [
+    "custom.xml",
+    "gate.py",
+    "labels.py"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

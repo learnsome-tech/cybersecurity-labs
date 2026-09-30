@@ -1,0 +1,19 @@
+{
+  "lab": "m01l01-02",
+  "lesson": "m01l01",
+  "title": "A hash spots change; only a key spots a forger",
+  "mode": "graded",
+  "runner": "python",
+  "command": "python3 tags.py",
+  "main": "tags.py",
+  "files": [
+    "tags.py"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

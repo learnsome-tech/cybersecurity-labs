@@ -1,0 +1,21 @@
+{
+  "lab": "m03l04-02",
+  "lesson": "m03l04",
+  "title": "Build a CA, request a certificate, issue it",
+  "mode": "run",
+  "runner": "bash",
+  "command": "bash mkpki.sh",
+  "main": "mkpki.sh",
+  "files": [
+    "command.txt",
+    "mkpki.sh"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [
+    "bash",
+    "openssl"
+  ],
+  "note": "what the listing prints in the lab sandbox differs from the output recorded for the lesson (it depends on the machine, the clock or the network), so the site runs it without a pass or fail."
+}

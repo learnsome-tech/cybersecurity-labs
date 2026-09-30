@@ -1,0 +1,19 @@
+{
+  "lab": "m03l01-02",
+  "lesson": "m03l01",
+  "title": "Counter mode hides the amount but not the edit",
+  "mode": "graded",
+  "runner": "python",
+  "command": "python3 ctr_flip.py",
+  "main": "ctr_flip.py",
+  "files": [
+    "ctr_flip.py"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

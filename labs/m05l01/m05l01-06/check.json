@@ -1,0 +1,19 @@
+{
+  "lab": "m05l01-06",
+  "lesson": "m05l01",
+  "title": "Counting the nines",
+  "mode": "graded",
+  "runner": "python",
+  "command": "python3 availability.py",
+  "main": "availability.py",
+  "files": [
+    "availability.py"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

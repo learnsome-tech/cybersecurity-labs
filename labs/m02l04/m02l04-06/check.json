@@ -1,0 +1,19 @@
+{
+  "lab": "m02l04-06",
+  "lesson": "m02l04",
+  "title": "One incident, several notification clocks",
+  "mode": "graded",
+  "runner": "python",
+  "command": "python3 breach_clock.py",
+  "main": "breach_clock.py",
+  "files": [
+    "breach_clock.py"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

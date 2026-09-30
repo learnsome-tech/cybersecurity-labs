@@ -1,0 +1,17 @@
+{
+  "lab": "m05l01-02",
+  "lesson": "m05l01",
+  "title": "The BIA worksheet, one row per process",
+  "mode": "read-along",
+  "runner": null,
+  "command": null,
+  "main": "bia.csv",
+  "files": [
+    "bia.csv"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [],
+  "note": "It is a listing to read alongside the lesson, not a program to run."
+}

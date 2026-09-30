@@ -1,0 +1,17 @@
+{
+  "lab": "m01l04-04",
+  "lesson": "m01l04",
+  "title": "One layer: a fail2ban jail",
+  "mode": "read-along",
+  "runner": null,
+  "command": null,
+  "main": "jail.local",
+  "files": [
+    "jail.local"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [],
+  "note": "It is a listing to read alongside the lesson, not a program to run."
+}

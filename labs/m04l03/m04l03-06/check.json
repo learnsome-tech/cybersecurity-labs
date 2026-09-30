@@ -1,0 +1,20 @@
+{
+  "lab": "m04l03-06",
+  "lesson": "m04l03",
+  "title": "Erasure, legal holds and retention sweeps",
+  "mode": "graded",
+  "runner": "python",
+  "command": "python3 erase.py",
+  "main": "erase.py",
+  "files": [
+    "erase.py",
+    "shop.sql"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

@@ -1,0 +1,20 @@
+{
+  "lab": "m03l02-02",
+  "lesson": "m03l02",
+  "title": "Diffie-Hellman in a real 2048-bit group",
+  "mode": "graded",
+  "runner": "python",
+  "command": "python3 dh_modp.py",
+  "main": "dh_modp.py",
+  "files": [
+    "dh_modp.py",
+    "modp2048.py"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

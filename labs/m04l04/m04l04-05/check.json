@@ -1,0 +1,19 @@
+{
+  "lab": "m04l04-05",
+  "lesson": "m04l04",
+  "title": "Deleting a record is not sanitising it",
+  "mode": "graded",
+  "runner": "python",
+  "command": "python3 delete.py",
+  "main": "delete.py",
+  "files": [
+    "delete.py"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

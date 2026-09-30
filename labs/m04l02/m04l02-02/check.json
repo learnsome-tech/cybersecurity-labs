@@ -1,0 +1,22 @@
+{
+  "lab": "m04l02-02",
+  "lesson": "m04l02",
+  "title": "At rest: what a stolen database file shows",
+  "mode": "graded",
+  "runner": "bash",
+  "command": "bash at-rest.sh",
+  "main": "at-rest.sh",
+  "files": [
+    "at-rest.sh",
+    "command.txt"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "bash",
+    "openssl",
+    "sqlite3"
+  ],
+  "note": null
+}

@@ -1,0 +1,20 @@
+{
+  "lab": "m01l03-04",
+  "lesson": "m01l03",
+  "title": "What the mail client did not show",
+  "mode": "graded",
+  "runner": "python",
+  "command": "python3 inspect_mail.py",
+  "main": "inspect_mail.py",
+  "files": [
+    "inspect_mail.py",
+    "invoice.eml"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

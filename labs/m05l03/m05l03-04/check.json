@@ -1,0 +1,19 @@
+{
+  "lab": "m05l03-04",
+  "lesson": "m05l03",
+  "title": "Read-only is not immutable",
+  "mode": "graded",
+  "runner": "python",
+  "command": "python3 readonly.py",
+  "main": "readonly.py",
+  "files": [
+    "readonly.py"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

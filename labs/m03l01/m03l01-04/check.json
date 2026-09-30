@@ -1,0 +1,20 @@
+{
+  "lab": "m03l01-04",
+  "lesson": "m03l01",
+  "title": "ChaCha20-Poly1305 and a reused nonce",
+  "mode": "graded",
+  "runner": "python",
+  "command": "python3 nonce_reuse.py",
+  "main": "nonce_reuse.py",
+  "files": [
+    "aead.py",
+    "nonce_reuse.py"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

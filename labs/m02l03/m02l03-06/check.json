@@ -1,0 +1,20 @@
+{
+  "lab": "m02l03-06",
+  "lesson": "m02l03",
+  "title": "Testing a pod manifest against the restricted profile",
+  "mode": "graded",
+  "runner": "python",
+  "command": "python3 check_pod.py",
+  "main": "check_pod.py",
+  "files": [
+    "check_pod.py",
+    "pod.json"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

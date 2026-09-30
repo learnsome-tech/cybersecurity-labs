@@ -1,0 +1,20 @@
+{
+  "lab": "m06l02-05",
+  "lesson": "m06l02",
+  "title": "Checking the decisions, not only the scores",
+  "mode": "graded",
+  "runner": "python",
+  "command": "python3 register_review.py",
+  "main": "register_review.py",
+  "files": [
+    "register.csv",
+    "register_review.py"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

@@ -1,6 +1,0 @@
-sshd_config says:
-PermitRootLogin no
-PasswordAuthentication no
-sshd -T says:
-permitrootlogin no
-passwordauthentication yes

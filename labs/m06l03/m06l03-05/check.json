@@ -1,0 +1,21 @@
+{
+  "lab": "m06l03-05",
+  "lesson": "m06l03",
+  "title": "Testing each sampled change against the policy",
+  "mode": "graded",
+  "runner": "python",
+  "command": "python3 test_sample.py",
+  "main": "test_sample.py",
+  "files": [
+    "changes.csv",
+    "sample.txt",
+    "test_sample.py"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

@@ -1,0 +1,20 @@
+{
+  "lab": "m01l01-05",
+  "lesson": "m01l01",
+  "title": "Reading the four steps in a real auth.log",
+  "mode": "graded",
+  "runner": "python",
+  "command": "python3 iaaa.py",
+  "main": "iaaa.py",
+  "files": [
+    "auth.log",
+    "iaaa.py"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

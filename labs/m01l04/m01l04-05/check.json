@@ -1,0 +1,20 @@
+{
+  "lab": "m01l04-05",
+  "lesson": "m01l04",
+  "title": "What the bastion's auth.log records",
+  "mode": "graded",
+  "runner": "python",
+  "command": "python3 failures.py",
+  "main": "failures.py",
+  "files": [
+    "auth.log",
+    "failures.py"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

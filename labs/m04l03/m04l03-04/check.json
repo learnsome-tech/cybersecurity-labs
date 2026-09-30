@@ -1,0 +1,20 @@
+{
+  "lab": "m04l03-04",
+  "lesson": "m04l03",
+  "title": "Answering an access request from the database itself",
+  "mode": "graded",
+  "runner": "python",
+  "command": "python3 sar.py",
+  "main": "sar.py",
+  "files": [
+    "sar.py",
+    "shop.sql"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

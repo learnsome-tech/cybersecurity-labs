@@ -1,0 +1,20 @@
+{
+  "lab": "m04l05-05",
+  "lesson": "m04l05",
+  "title": "Egress monitoring from Zeek connection logs",
+  "mode": "graded",
+  "runner": "python",
+  "command": "python3 egress.py",
+  "main": "egress.py",
+  "files": [
+    "conn.log",
+    "egress.py"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

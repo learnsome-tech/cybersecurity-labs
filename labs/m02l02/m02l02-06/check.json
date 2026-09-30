@@ -1,0 +1,20 @@
+{
+  "lab": "m02l02-06",
+  "lesson": "m02l02",
+  "title": "A key risk indicator against its tolerance line",
+  "mode": "graded",
+  "runner": "python",
+  "command": "python3 kri.py",
+  "main": "kri.py",
+  "files": [
+    "internet_facing_patches.csv",
+    "kri.py"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

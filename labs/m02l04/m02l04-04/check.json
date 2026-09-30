@@ -1,0 +1,19 @@
+{
+  "lab": "m02l04-04",
+  "lesson": "m02l04",
+  "title": "Why PCI DSS wants keyed hashes",
+  "mode": "graded",
+  "runner": "python",
+  "command": "python3 hash_vs_hmac.py",
+  "main": "hash_vs_hmac.py",
+  "files": [
+    "hash_vs_hmac.py"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

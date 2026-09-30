@@ -1,0 +1,19 @@
+{
+  "lab": "m05l02-02",
+  "lesson": "m05l02",
+  "title": "Would each site meet a six hour RTO?",
+  "mode": "graded",
+  "runner": "python",
+  "command": "python3 site_fit.py",
+  "main": "site_fit.py",
+  "files": [
+    "site_fit.py"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

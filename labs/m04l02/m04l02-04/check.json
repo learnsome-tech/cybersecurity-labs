@@ -1,0 +1,19 @@
+{
+  "lab": "m04l02-04",
+  "lesson": "m04l02",
+  "title": "In use: tokenise what you store, mask what you show",
+  "mode": "graded",
+  "runner": "python",
+  "command": "python3 tokens.py",
+  "main": "tokens.py",
+  "files": [
+    "tokens.py"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

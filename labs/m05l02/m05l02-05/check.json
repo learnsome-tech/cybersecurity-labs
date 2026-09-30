@@ -1,0 +1,19 @@
+{
+  "lab": "m05l02-05",
+  "lesson": "m05l02",
+  "title": "What distance does to every commit",
+  "mode": "graded",
+  "runner": "python",
+  "command": "python3 latency.py",
+  "main": "latency.py",
+  "files": [
+    "latency.py"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

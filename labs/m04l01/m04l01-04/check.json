@@ -1,0 +1,20 @@
+{
+  "lab": "m04l01-04",
+  "lesson": "m04l01",
+  "title": "Stamp a label, copy the file, read it back",
+  "mode": "graded",
+  "runner": "python",
+  "command": "python3 labels.py",
+  "main": "labels.py",
+  "files": [
+    "custom.xml",
+    "labels.py"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

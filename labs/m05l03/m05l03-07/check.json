@@ -1,0 +1,19 @@
+{
+  "lab": "m05l03-07",
+  "lesson": "m05l03",
+  "title": "Zero errors: proving a restore is intact",
+  "mode": "graded",
+  "runner": "python",
+  "command": "python3 verify.py",
+  "main": "verify.py",
+  "files": [
+    "verify.py"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

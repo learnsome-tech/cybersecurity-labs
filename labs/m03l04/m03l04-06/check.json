@@ -1,0 +1,20 @@
+{
+  "lab": "m03l04-06",
+  "lesson": "m03l04",
+  "title": "OCSP: one question, one signed answer",
+  "mode": "read-along",
+  "runner": null,
+  "command": null,
+  "main": "ocsp.sh",
+  "files": [
+    "ca.cnf",
+    "command.txt",
+    "mkpki.sh",
+    "ocsp.sh"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [],
+  "note": "The listing does not run cleanly in the lab sandbox (it relies on something the sandbox cannot provide), so the site shows it read-only."
+}

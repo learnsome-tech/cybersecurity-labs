@@ -1,8 +1,8 @@
-subject=O=Example Bookings Ltd, CN=booking.example.org
-issuer=O=Example Bookings Ltd, CN=Example Bookings Internal CA
+subject=O = Example Bookings Ltd, CN = booking.example.org
+issuer=O = Example Bookings Ltd, CN = Example Bookings Internal CA
 notBefore=Oct 20 00:00:00 2025 GMT
 notAfter=Oct 19 23:59:59 2026 GMT
-X509v3 Subject Alternative Name:
+X509v3 Subject Alternative Name: 
 DNS:booking.example.org
 Public-Key: (1024 bit)
 Signature Algorithm: sha256WithRSAEncryption

@@ -2,7 +2,7 @@ readable strings in customers.db:
 SQLite format 3
 tablecustomercustomer
 CREATE TABLE customer (id INTEGER, email TEXT, card TEXT)
-/-alice@example.com4111111111111111
+	/-alice@example.com4111111111111111
 customers.db: email visible
 customers.db.enc: email not found
 1|alice@example.com

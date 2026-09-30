@@ -1,0 +1,21 @@
+{
+  "lab": "m04l05-04",
+  "lesson": "m04l05",
+  "title": "Exact data match: fingerprints of your own records",
+  "mode": "graded",
+  "runner": "python",
+  "command": "python3 edm.py",
+  "main": "edm.py",
+  "files": [
+    "customers.csv",
+    "edm.py",
+    "outgoing.txt"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

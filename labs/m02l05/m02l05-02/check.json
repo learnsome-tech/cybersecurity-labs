@@ -1,0 +1,20 @@
+{
+  "lab": "m02l05-02",
+  "lesson": "m02l05",
+  "title": "Tiering vendors from the intake list",
+  "mode": "graded",
+  "runner": "python",
+  "command": "python3 tiering.py",
+  "main": "tiering.py",
+  "files": [
+    "tiering.py",
+    "vendors.csv"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

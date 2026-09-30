@@ -1,0 +1,19 @@
+{
+  "lab": "m05l03-02",
+  "lesson": "m05l03",
+  "title": "Full, incremental and differential",
+  "mode": "graded",
+  "runner": "python",
+  "command": "python3 backup_types.py",
+  "main": "backup_types.py",
+  "files": [
+    "backup_types.py"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

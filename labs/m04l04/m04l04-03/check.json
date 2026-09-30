@@ -1,0 +1,21 @@
+{
+  "lab": "m04l04-03",
+  "lesson": "m04l04",
+  "title": "Reconcile the inventory against the leases",
+  "mode": "graded",
+  "runner": "python",
+  "command": "python3 reconcile.py",
+  "main": "reconcile.py",
+  "files": [
+    "dhcpd.leases",
+    "inventory.csv",
+    "reconcile.py"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

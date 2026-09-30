@@ -1,0 +1,19 @@
+{
+  "lab": "m05l02-03",
+  "lesson": "m05l02",
+  "title": "Synchronous versus asynchronous replication",
+  "mode": "graded",
+  "runner": "python",
+  "command": "python3 replicate.py",
+  "main": "replicate.py",
+  "files": [
+    "replicate.py"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

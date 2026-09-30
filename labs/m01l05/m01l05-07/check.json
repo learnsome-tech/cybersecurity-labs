@@ -1,0 +1,20 @@
+{
+  "lab": "m01l05-07",
+  "lesson": "m01l05",
+  "title": "Auditing the exceptions register",
+  "mode": "graded",
+  "runner": "python",
+  "command": "python3 exceptions.py",
+  "main": "exceptions.py",
+  "files": [
+    "exceptions.csv",
+    "exceptions.py"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

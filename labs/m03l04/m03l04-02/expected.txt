@@ -1,9 +1,0 @@
-issuer=O=Example Corp, CN=Example Corp Root CA
-subject=CN=www.example.com
-serial=1000
-notBefore=Sep  1 00:00:00 2026 GMT
-notAfter=Nov 30 00:00:00 2026 GMT
-X509v3 Subject Alternative Name: 
-    DNS:www.example.com, DNS:example.com
-Certificate request self-signature ok
-subject=CN=www.example.com

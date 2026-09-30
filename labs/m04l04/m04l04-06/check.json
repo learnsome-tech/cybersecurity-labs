@@ -1,0 +1,21 @@
+{
+  "lab": "m04l04-06",
+  "lesson": "m04l04",
+  "title": "Cryptographic erase: destroy the key, not the disk",
+  "mode": "graded",
+  "runner": "bash",
+  "command": "bash crypto-erase.sh",
+  "main": "crypto-erase.sh",
+  "files": [
+    "command.txt",
+    "crypto-erase.sh"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "bash",
+    "openssl"
+  ],
+  "note": null
+}

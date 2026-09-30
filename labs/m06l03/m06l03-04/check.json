@@ -1,0 +1,20 @@
+{
+  "lab": "m06l03-04",
+  "lesson": "m06l03",
+  "title": "Drawing a sample anyone can repeat",
+  "mode": "graded",
+  "runner": "python",
+  "command": "python3 sample.py",
+  "main": "sample.py",
+  "files": [
+    "changes.csv",
+    "sample.py"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

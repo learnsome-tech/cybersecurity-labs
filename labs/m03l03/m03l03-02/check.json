@@ -1,0 +1,19 @@
+{
+  "lab": "m03l03-02",
+  "lesson": "m03l03",
+  "title": "SHA-256 and SHA-3 on a one-character change",
+  "mode": "graded",
+  "runner": "python",
+  "command": "python3 fingerprint.py",
+  "main": "fingerprint.py",
+  "files": [
+    "fingerprint.py"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

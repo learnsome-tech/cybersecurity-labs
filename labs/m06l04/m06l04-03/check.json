@@ -1,0 +1,20 @@
+{
+  "lab": "m06l04-03",
+  "lesson": "m06l04",
+  "title": "Measuring the real recovery point from backups",
+  "mode": "graded",
+  "runner": "python",
+  "command": "python3 backup_rpo.py",
+  "main": "backup_rpo.py",
+  "files": [
+    "backup_rpo.py",
+    "snapshots.json"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

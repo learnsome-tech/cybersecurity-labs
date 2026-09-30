@@ -1,0 +1,22 @@
+{
+  "lab": "m02l01-06",
+  "lesson": "m02l01",
+  "title": "A standard under version control",
+  "mode": "graded",
+  "runner": "bash",
+  "command": "bash change.sh",
+  "main": "change.sh",
+  "files": [
+    "change.sh",
+    "command.txt",
+    "ssh_standard.txt"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "bash",
+    "git"
+  ],
+  "note": null
+}

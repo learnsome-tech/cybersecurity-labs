@@ -1,0 +1,20 @@
+{
+  "lab": "m06l02-03",
+  "lesson": "m06l02",
+  "title": "Inherent against residual, sorted for the committee",
+  "mode": "graded",
+  "runner": "python",
+  "command": "python3 register_view.py",
+  "main": "register_view.py",
+  "files": [
+    "register.csv",
+    "register_view.py"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

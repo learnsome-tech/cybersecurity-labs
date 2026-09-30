@@ -1,0 +1,22 @@
+{
+  "lab": "m06l04-02",
+  "lesson": "m06l04",
+  "title": "Reading the certificate the service presents",
+  "mode": "graded",
+  "runner": "bash",
+  "command": "bash inspect_cert.sh",
+  "main": "inspect_cert.sh",
+  "files": [
+    "cert.pem",
+    "command.txt",
+    "inspect_cert.sh"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "bash",
+    "openssl"
+  ],
+  "note": null
+}

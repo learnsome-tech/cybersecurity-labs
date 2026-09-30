@@ -1,0 +1,21 @@
+{
+  "lab": "m02l03-04",
+  "lesson": "m02l03",
+  "title": "One crosswalk, three frameworks, four gaps",
+  "mode": "graded",
+  "runner": "python",
+  "command": "python3 crosswalk.py",
+  "main": "crosswalk.py",
+  "files": [
+    "crosswalk.csv",
+    "crosswalk.py",
+    "evidence.csv"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

@@ -1,0 +1,20 @@
+{
+  "lab": "m05l01-03",
+  "lesson": "m05l01",
+  "title": "Checking the targets against real restore times",
+  "mode": "graded",
+  "runner": "python",
+  "command": "python3 bia_gaps.py",
+  "main": "bia_gaps.py",
+  "files": [
+    "bia.csv",
+    "bia_gaps.py"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

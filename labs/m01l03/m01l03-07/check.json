@@ -1,0 +1,20 @@
+{
+  "lab": "m01l03-07",
+  "lesson": "m01l03",
+  "title": "Scoring a phishing simulation",
+  "mode": "graded",
+  "runner": "python",
+  "command": "python3 campaign.py",
+  "main": "campaign.py",
+  "files": [
+    "campaign.py",
+    "results.csv"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

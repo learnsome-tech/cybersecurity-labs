@@ -1,0 +1,19 @@
+{
+  "lab": "m04l02-03",
+  "lesson": "m04l02",
+  "title": "In transit: what the network path sees",
+  "mode": "graded",
+  "runner": "python",
+  "command": "python3 wire.py",
+  "main": "wire.py",
+  "files": [
+    "wire.py"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

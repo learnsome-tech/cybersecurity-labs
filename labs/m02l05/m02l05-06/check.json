@@ -1,0 +1,20 @@
+{
+  "lab": "m02l05-06",
+  "lesson": "m02l05",
+  "title": "Verifying an SLA from the vendor's own incident export",
+  "mode": "graded",
+  "runner": "python",
+  "command": "python3 sla.py",
+  "main": "sla.py",
+  "files": [
+    "sla.py",
+    "status_export_2026-08.csv"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

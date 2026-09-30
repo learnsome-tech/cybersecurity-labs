@@ -1,0 +1,19 @@
+{
+  "lab": "m05l04-06",
+  "lesson": "m05l04",
+  "title": "Counting the regulatory clock correctly",
+  "mode": "graded",
+  "runner": "python",
+  "command": "python3 deadlines.py",
+  "main": "deadlines.py",
+  "files": [
+    "deadlines.py"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

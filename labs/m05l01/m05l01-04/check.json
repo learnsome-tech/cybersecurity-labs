@@ -1,0 +1,19 @@
+{
+  "lab": "m05l01-04",
+  "lesson": "m05l01",
+  "title": "Watching an RPO happen to real data",
+  "mode": "graded",
+  "runner": "python",
+  "command": "python3 rpo_demo.py",
+  "main": "rpo_demo.py",
+  "files": [
+    "rpo_demo.py"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

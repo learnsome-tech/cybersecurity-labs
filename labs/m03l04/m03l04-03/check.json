@@ -1,0 +1,22 @@
+{
+  "lab": "m03l04-03",
+  "lesson": "m03l04",
+  "title": "Four checks a client makes",
+  "mode": "run",
+  "runner": "bash",
+  "command": "bash verify.sh",
+  "main": "verify.sh",
+  "files": [
+    "command.txt",
+    "mkpki.sh",
+    "verify.sh"
+  ],
+  "stdin": null,
+  "expected": null,
+  "grading": null,
+  "requires": [
+    "bash",
+    "openssl"
+  ],
+  "note": "what the listing prints in the lab sandbox differs from the output recorded for the lesson (it depends on the machine, the clock or the network), so the site runs it without a pass or fail."
+}

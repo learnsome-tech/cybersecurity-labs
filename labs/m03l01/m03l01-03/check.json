@@ -1,0 +1,20 @@
+{
+  "lab": "m03l01-03",
+  "lesson": "m03l01",
+  "title": "AES-GCM refuses the same edit",
+  "mode": "graded",
+  "runner": "python",
+  "command": "python3 gcm_tamper.py",
+  "main": "gcm_tamper.py",
+  "files": [
+    "aead.py",
+    "gcm_tamper.py"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}

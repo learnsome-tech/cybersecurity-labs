@@ -1,0 +1,19 @@
+{
+  "lab": "m03l03-03",
+  "lesson": "m03l03",
+  "title": "Integrity needs a key: HMAC",
+  "mode": "graded",
+  "runner": "python",
+  "command": "python3 webhook.py",
+  "main": "webhook.py",
+  "files": [
+    "webhook.py"
+  ],
+  "stdin": null,
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "python3"
+  ],
+  "note": null
+}
