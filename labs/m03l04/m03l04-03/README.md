@@ -1,7 +1,7 @@
 # m03l04-03 · Four checks a client makes
 
 **Lesson:** [Public Key Infrastructure: X.509 Certificates & CAs](https://learnsome.tech/learn/cybersecurity-course/m03l04) (lesson 3.4, module 3: Applied Cryptography & Keys) · Pro  
-**Check:** Runs, not graded
+**Check:** Graded
 
 ## Goal
 
@@ -14,6 +14,7 @@ In the lesson: Now the client's side. This script rebuilds the same C A and cert
 - [`starter/command.txt`](starter/command.txt)
 - [`starter/mkpki.sh`](starter/mkpki.sh)
 - [`starter/verify.sh`](starter/verify.sh): the listing from the lesson
+- [`expected.txt`](expected.txt): the output the check compares with
 - [`check.json`](check.json): how `./check` runs and checks this lab
 
 ## Steps
@@ -27,9 +28,7 @@ In the lesson: Now the client's side. This script rebuilds the same C A and cert
 3. Run it: `bash verify.sh`.
 4. Check it from the repository root: `./check m03l04-03`.
 
-## What the lesson recorded
-
-Shown for reference; the check does not compare it.
+## Expected output
 
 ```text
 right name:   www.pem: OK
@@ -40,9 +39,11 @@ self-signed:  self-signed certificate
 
 ## How to check
 
+It runs with OpenSSL 3.5 first on `PATH`, as on the site (the dev container has it).
+
 `./check m03l04-03` copies `starter/` into a scratch directory and runs `bash verify.sh` there, the way the site's lab sandbox does: that directory is the working directory and `HOME`, `LANG=C.UTF-8`, `TZ=UTC`, a limit of 10 seconds and 256 KiB of output per stream.
 
-It runs without a pass or fail: what the listing prints in the lab sandbox differs from the output recorded for the lesson (it depends on the machine, the clock or the network), so the site runs it without a pass or fail. `./check` shows the output and the exit code.
+It passes when the output matches `expected.txt` by the site's rules, within the limits. Standard output is compared line by line; spaces at the end of a line and blank lines at the end do not count. If that differs, standard output followed by standard error is compared with Python traceback frames and blank lines set aside, so a lesson that shows an error passes when your program prints the same error. A pass here is a pass on the site.
 
 ---
 

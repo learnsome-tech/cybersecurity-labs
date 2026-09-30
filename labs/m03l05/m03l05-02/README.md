@@ -1,7 +1,7 @@
 # m03l05-02 · ML-KEM: key exchange built to survive Shor
 
 **Lesson:** [Post-Quantum Cryptography & Key Lifecycles](https://learnsome.tech/learn/cybersecurity-course/m03l05) (lesson 3.5, module 3: Applied Cryptography & Keys) · Pro  
-**Check:** Runs, not graded
+**Check:** Graded
 
 ## Goal
 
@@ -13,6 +13,7 @@ In the lesson: M L KEM is a key encapsulation mechanism, and openssl includes it
 
 - [`starter/command.txt`](starter/command.txt)
 - [`starter/mlkem.sh`](starter/mlkem.sh): the listing from the lesson
+- [`expected.txt`](expected.txt): the output the check compares with
 - [`check.json`](check.json): how `./check` runs and checks this lab
 
 ## Steps
@@ -26,9 +27,7 @@ In the lesson: M L KEM is a key encapsulation mechanism, and openssl includes it
 3. Run it: `bash mlkem.sh`.
 4. Check it from the repository root: `./check m03l05-02`.
 
-## What the lesson recorded
-
-Shown for reference; the check does not compare it.
+## Expected output
 
 ```text
 public key, DER:     1206 bytes
@@ -39,9 +38,11 @@ Alice and Bob hold the same secret
 
 ## How to check
 
+It runs with OpenSSL 3.5 first on `PATH`, as on the site (the dev container has it).
+
 `./check m03l05-02` copies `starter/` into a scratch directory and runs `bash mlkem.sh` there, the way the site's lab sandbox does: that directory is the working directory and `HOME`, `LANG=C.UTF-8`, `TZ=UTC`, a limit of 10 seconds and 256 KiB of output per stream.
 
-It runs without a pass or fail: what the listing prints in the lab sandbox differs from the output recorded for the lesson (it depends on the machine, the clock or the network), so the site runs it without a pass or fail. `./check` shows the output and the exit code.
+It passes when the output matches `expected.txt` by the site's rules, within the limits. Standard output is compared line by line; spaces at the end of a line and blank lines at the end do not count. If that differs, standard output followed by standard error is compared with Python traceback frames and blank lines set aside, so a lesson that shows an error passes when your program prints the same error. A pass here is a pass on the site.
 
 ---
 

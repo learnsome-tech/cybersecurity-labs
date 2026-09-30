@@ -1,7 +1,7 @@
 # m03l05-03 · Post-quantum signatures and what they weigh
 
 **Lesson:** [Post-Quantum Cryptography & Key Lifecycles](https://learnsome.tech/learn/cybersecurity-course/m03l05) (lesson 3.5, module 3: Applied Cryptography & Keys) · Pro  
-**Check:** Runs, not graded
+**Check:** Graded
 
 ## Goal
 
@@ -13,6 +13,7 @@ In the lesson: Signatures change too, and here the size difference is far larger
 
 - [`starter/command.txt`](starter/command.txt)
 - [`starter/pqsign.sh`](starter/pqsign.sh): the listing from the lesson
+- [`expected.txt`](expected.txt): the output the check compares with
 - [`check.json`](check.json): how `./check` runs and checks this lab
 
 ## Steps
@@ -24,9 +25,7 @@ In the lesson: Signatures change too, and here the size difference is far larger
 3. Run it: `bash pqsign.sh`.
 4. Check it from the repository root: `./check m03l05-03`.
 
-## What the lesson recorded
-
-Shown for reference; the check does not compare it.
+## Expected output
 
 ```text
 ED25519: public key 44 bytes, signature 64 bytes, verifies
@@ -36,9 +35,11 @@ SLH-DSA-SHA2-128s: public key 50 bytes, signature 7856 bytes, verifies
 
 ## How to check
 
+It runs with OpenSSL 3.5 first on `PATH`, as on the site (the dev container has it).
+
 `./check m03l05-03` copies `starter/` into a scratch directory and runs `bash pqsign.sh` there, the way the site's lab sandbox does: that directory is the working directory and `HOME`, `LANG=C.UTF-8`, `TZ=UTC`, a limit of 10 seconds and 256 KiB of output per stream.
 
-It runs without a pass or fail: what the listing prints in the lab sandbox differs from the output recorded for the lesson (it depends on the machine, the clock or the network), so the site runs it without a pass or fail. `./check` shows the output and the exit code.
+It passes when the output matches `expected.txt` by the site's rules, within the limits. Standard output is compared line by line; spaces at the end of a line and blank lines at the end do not count. If that differs, standard output followed by standard error is compared with Python traceback frames and blank lines set aside, so a lesson that shows an error passes when your program prints the same error. A pass here is a pass on the site.
 
 ---
 

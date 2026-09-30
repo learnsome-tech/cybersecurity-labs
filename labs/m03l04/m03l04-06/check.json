@@ -2,9 +2,9 @@
   "lab": "m03l04-06",
   "lesson": "m03l04",
   "title": "OCSP: one question, one signed answer",
-  "mode": "read-along",
-  "runner": null,
-  "command": null,
+  "mode": "graded",
+  "runner": "bash",
+  "command": "bash ocsp.sh",
   "main": "ocsp.sh",
   "files": [
     "ca.cnf",
@@ -13,8 +13,14 @@
     "ocsp.sh"
   ],
   "stdin": null,
-  "expected": null,
-  "grading": null,
-  "requires": [],
-  "note": "The listing does not run cleanly in the lab sandbox (it relies on something the sandbox cannot provide), so the site shows it read-only."
+  "expected": "expected.txt",
+  "grading": "lines",
+  "requires": [
+    "bash",
+    "openssl"
+  ],
+  "toolchain": [
+    "openssl-3.5"
+  ],
+  "note": null
 }

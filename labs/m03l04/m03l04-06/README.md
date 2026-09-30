@@ -1,7 +1,7 @@
 # m03l04-06 · OCSP: one question, one signed answer
 
 **Lesson:** [Public Key Infrastructure: X.509 Certificates & CAs](https://learnsome.tech/learn/cybersecurity-course/m03l04) (lesson 3.4, module 3: Applied Cryptography & Keys) · Pro  
-**Check:** Read along
+**Check:** Graded
 
 ## Goal
 
@@ -15,27 +15,38 @@ In the lesson: The online certificate status protocol, O C S P, asks about one c
 - [`starter/command.txt`](starter/command.txt)
 - [`starter/mkpki.sh`](starter/mkpki.sh)
 - [`starter/ocsp.sh`](starter/ocsp.sh): the listing from the lesson
+- [`expected.txt`](expected.txt): the output the check compares with
 - [`check.json`](check.json): how `./check` runs and checks this lab
 
 ## Steps
 
-1. Read `starter/ocsp.sh` alongside the lesson.
-2. Follow it the way the lesson builds it:
+1. Go to the starter: `cd labs/m03l04/m03l04-06/starter`
+2. Read `ocsp.sh` the way the lesson builds it:
    - Lines 1–4: the same revocation is recorded first
    - Lines 5–8: the client builds a request
    - Lines 9–13: signs an answer
    - Lines 14–17: checks the responder's signature
-3. On a machine that has what it needs, the lesson ran it with:
+3. Run it: `bash ocsp.sh`.
+4. Check it from the repository root: `./check m03l04-06`.
 
-   ```sh
-   bash ocsp.sh
-   ```
+## Expected output
+
+```text
+          Serial Number: 1000
+    OCSP Response Status: successful (0x0)
+    Cert Status: revoked
+Response verify OK
+www.pem: revoked
+	Reason: keyCompromise
+```
 
 ## How to check
 
-**Read along.** The listing does not run cleanly in the lab sandbox (it relies on something the sandbox cannot provide), so the site shows it read-only.
+It runs with OpenSSL 3.5 first on `PATH`, as on the site (the dev container has it).
 
-There is nothing to check: `./check m03l04-06` says so and moves on.
+`./check m03l04-06` copies `starter/` into a scratch directory and runs `bash ocsp.sh` there, the way the site's lab sandbox does: that directory is the working directory and `HOME`, `LANG=C.UTF-8`, `TZ=UTC`, a limit of 10 seconds and 256 KiB of output per stream.
+
+It passes when the output matches `expected.txt` by the site's rules, within the limits. Standard output is compared line by line; spaces at the end of a line and blank lines at the end do not count. If that differs, standard output followed by standard error is compared with Python traceback frames and blank lines set aside, so a lesson that shows an error passes when your program prints the same error. A pass here is a pass on the site.
 
 ---
 

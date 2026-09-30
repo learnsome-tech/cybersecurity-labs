@@ -128,5 +128,8 @@
         "storageclass-storage-v1.json"
       ]
     ]
+  },
+  "toolchains": {
+    "openssl-3.5": "/opt/openssl-3.5/bin"
   }
 }

@@ -1,0 +1,6 @@
+        Last Update: Oct 10 00:00:00 2026 GMT
+        Next Update: Oct 17 00:00:00 2026 GMT
+    Serial Number: 1000
+                Key Compromise
+without the CRL: www.pem: OK
+error 23 at 0 depth lookup: certificate revoked

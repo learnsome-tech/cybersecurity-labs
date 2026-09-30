@@ -19,7 +19,7 @@ This repository holds the labs of the LearnSome.tech course [Cybersecurity Funda
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/learnsome-tech/cybersecurity-labs?quickstart=1)
 
-- **Codespaces:** the badge opens this repository in a dev container with Python 3.14.7, SQLite 3.46.1 and Git 2.34 (Ubuntu 22.04's), as in the site's lab sandbox.
+- **Codespaces:** the badge opens this repository in a dev container with Python 3.14.7, SQLite 3.46.1, Git 2.34 (Ubuntu 22.04's) and OpenSSL 3.5, as in the site's lab sandbox.
 - **On your machine:**
 
   ```sh
@@ -28,7 +28,7 @@ This repository holds the labs of the LearnSome.tech course [Cybersecurity Funda
   ./check m01l01-02
   ```
 
-  You need Python 3 for `./check`, and for the labs themselves Python 3.14.7, SQLite 3.46.1 and Git 2.34 (Ubuntu 22.04's). Other versions mostly work, but only the sandbox's versions are sure to print what the site prints. VS Code's Dev Containers extension builds the same container as Codespaces (x86-64).
+  You need Python 3 for `./check`, and for the labs themselves Python 3.14.7, SQLite 3.46.1, Git 2.34 (Ubuntu 22.04's) and OpenSSL 3.5. Other versions mostly work, but only the sandbox's versions are sure to print what the site prints. VS Code's Dev Containers extension builds the same container as Codespaces (x86-64).
 
 ## Doing a lab
 
@@ -40,9 +40,8 @@ This repository holds the labs of the LearnSome.tech course [Cybersecurity Funda
 
 | Check | What `./check` does | Labs |
 | --- | --- | --- |
-| Graded | Runs the program and compares its output with `expected.txt`. | 70 |
-| Runs, not graded | Runs the program and shows its output; the site gives no pass or fail, and the lab README says why. | 4 |
-| Read along | Nothing to run here: the site shows the listing read-only, and the lab README says honestly what it needs (Docker, a cluster, a cloud account...). | 18 |
+| Graded | Runs the program and compares its output with `expected.txt`. | 76 |
+| Read along | Nothing to run here: the site shows the listing read-only, and the lab README says honestly what it needs (Docker, a cluster, a cloud account...). | 16 |
 
 ## What is published, and what is not
 

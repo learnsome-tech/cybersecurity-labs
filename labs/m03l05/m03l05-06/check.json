@@ -16,5 +16,8 @@
   "requires": [
     "python3"
   ],
+  "toolchain": [
+    "openssl-3.5"
+  ],
   "note": null
 }

@@ -37,6 +37,8 @@ row reads as:      order 1042: deliver to 221B Baker St
 
 ## How to check
 
+It runs with OpenSSL 3.5 first on `PATH`, as on the site (the dev container has it).
+
 `./check m03l05-06` copies `starter/` into a scratch directory and runs `python3 envelope.py` there, the way the site's lab sandbox does: that directory is the working directory and `HOME`, `LANG=C.UTF-8`, `TZ=UTC`, a limit of 10 seconds and 256 KiB of output per stream.
 
 It passes when the output matches `expected.txt` by the site's rules, within the limits. Standard output is compared line by line; spaces at the end of a line and blank lines at the end do not count. If that differs, standard output followed by standard error is compared with Python traceback frames and blank lines set aside, so a lesson that shows an error passes when your program prints the same error. A pass here is a pass on the site.

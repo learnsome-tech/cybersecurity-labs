@@ -8,8 +8,8 @@ Module 3: Applied Cryptography & Keys · lesson 3.5 · Pro · [Open the lesson](
 
 | Lab | What it is | Check |
 | --- | --- | --- |
-| [m03l05-02](m03l05-02/) | ML-KEM: key exchange built to survive Shor | Runs, not graded |
-| [m03l05-03](m03l05-03/) | Post-quantum signatures and what they weigh | Runs, not graded |
+| [m03l05-02](m03l05-02/) | ML-KEM: key exchange built to survive Shor | Graded |
+| [m03l05-03](m03l05-03/) | Post-quantum signatures and what they weigh | Graded |
 | [m03l05-06](m03l05-06/) | Envelope encryption: rotate without re-encrypting | Graded |
 
 ## Exercises

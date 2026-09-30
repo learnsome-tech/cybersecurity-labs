@@ -8,10 +8,10 @@ Module 3: Applied Cryptography & Keys · lesson 3.4 · Pro · [Open the lesson](
 
 | Lab | What it is | Check |
 | --- | --- | --- |
-| [m03l04-02](m03l04-02/) | Build a CA, request a certificate, issue it | Runs, not graded |
-| [m03l04-03](m03l04-03/) | Four checks a client makes | Runs, not graded |
-| [m03l04-05](m03l04-05/) | Revoking a certificate with a CRL | Read along |
-| [m03l04-06](m03l04-06/) | OCSP: one question, one signed answer | Read along |
+| [m03l04-02](m03l04-02/) | Build a CA, request a certificate, issue it | Graded |
+| [m03l04-03](m03l04-03/) | Four checks a client makes | Graded |
+| [m03l04-05](m03l04-05/) | Revoking a certificate with a CRL | Graded |
+| [m03l04-06](m03l04-06/) | OCSP: one question, one signed answer | Graded |
 
 ## Exercises
 

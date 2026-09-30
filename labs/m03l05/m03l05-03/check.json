@@ -2,7 +2,7 @@
   "lab": "m03l05-03",
   "lesson": "m03l05",
   "title": "Post-quantum signatures and what they weigh",
-  "mode": "run",
+  "mode": "graded",
   "runner": "bash",
   "command": "bash pqsign.sh",
   "main": "pqsign.sh",
@@ -11,11 +11,14 @@
     "pqsign.sh"
   ],
   "stdin": null,
-  "expected": null,
-  "grading": null,
+  "expected": "expected.txt",
+  "grading": "lines",
   "requires": [
     "bash",
     "openssl"
   ],
-  "note": "what the listing prints in the lab sandbox differs from the output recorded for the lesson (it depends on the machine, the clock or the network), so the site runs it without a pass or fail."
+  "toolchain": [
+    "openssl-3.5"
+  ],
+  "note": null
 }
